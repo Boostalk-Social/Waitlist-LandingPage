@@ -141,10 +141,10 @@ function App() {
     <div className="min-h-screen bg-[#FFFFFF]">
       {/* Header */}
       <header className="fixed top-0 w-full bg-[#FFFFFF]/80 backdrop-blur-md z-50 border-b border-[#808080]/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-2  sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Logo" className='h-[20vh]'/>
+              <img src="/logo.png" alt="Logo" className='h-[20vh] max-sm:h-[16vh]'/>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#features" className="text-[#808080] hover:text-[#0089F7] transition-colors">Features</a>
